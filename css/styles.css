@@ -11,17 +11,19 @@ button {
 }
 
 body {
-    font-family: Roboto, Montserrat, sans-serif;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFF;
 }
 .page-hat {
     background: var(--WHITE, #FFF);
 }
 
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.67;  
+    line-height: 1.17;  
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
@@ -46,6 +48,10 @@ body {
 
 .page-navigation-link:active {
 
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .contacts-link {
@@ -76,7 +82,7 @@ body {
 }
 
 .hero-button {
-    border-radius: 4px;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -86,7 +92,9 @@ body {
     color: var(--WHITE, #FFF);
 }
 
-.hero-button:hover {
+.hero-button:hover
+.hero-button:focus 
+{
     background: var(--OCEAN, #404BBF);
 }
 
@@ -105,7 +113,7 @@ body {
 .benefits-item-info {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 }
