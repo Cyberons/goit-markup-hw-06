@@ -24,17 +24,11 @@ body {
     line-height: 1.67;  
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--NAVY-BLUE, #2E2F42); 
+    color: var(--IRIS, #4D5AE5);
 }
 
 .logo-studio {
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.67;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--IRIS, #4D5AE5);
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .page-navigation-link {
