@@ -16,7 +16,7 @@ body {
     background-color: #FFF;
 }
 .page-hat {
-    background: var(--WHITE, #FFF);
+    background-color: var(--WHITE, #FFF);
 }
 
 .logo {
@@ -31,6 +31,10 @@ body {
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.logo-studio-shoes {
+    color: #F4F4FD;
 }
 
 .page-navigation-link {
@@ -69,7 +73,7 @@ body {
 }
 
 .hero {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .hero-title {
@@ -95,11 +99,11 @@ body {
 .hero-button:hover
 .hero-button:focus 
 {
-    background: var(--OCEAN, #404BBF);
+    background-color: #404BBF;
 }
 
 .benefits {
-    background: #FFF;
+    background-color: #FFF;
 }
 
 .benefits-item-title {
@@ -123,7 +127,7 @@ body {
 }
 
 .team-member {
-    background: var(--WHITE, #FFF)
+    background-color;: var(--WHITE, #FFF)
 }
 
 .team-title {
@@ -155,7 +159,7 @@ body {
 }
 
 .portfolio {
-    background: #FFF;
+    background-color: #FFF;
 }
 
 .portfolio-title {
@@ -187,7 +191,7 @@ body {
 }
 
 .shoes {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .shoes-descr {
