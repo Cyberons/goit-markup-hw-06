@@ -1,13 +1,36 @@
+h1,h2,h3,h4,h5,h6, p {
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+ display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .list {
     list-style-type: none;    
 }
 
 .link {
     text-decoration: none;
-}
-
-button {
-    cursor: pointer;
 }
 
 body {
@@ -17,9 +40,17 @@ body {
 }
 .page-hat {
     background-color: var(--WHITE, #FFF);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-hat {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
+    margin-right: 76px;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -37,6 +68,15 @@ body {
     color: #F4F4FD;
 }
 
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.page-navigation-list { 
+    column-gap: 40px;
+    display: flex;
+}
 .page-navigation-link {
     font-size: 16px;
     font-weight: 500;
@@ -56,6 +96,13 @@ body {
 
 .contacts {
     font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-list {
+    display: flex;
+    column-gap: 40px;
 }
 
 .contacts-link {
