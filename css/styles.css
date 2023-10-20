@@ -78,7 +78,7 @@ body {
 }
 
 .page-navigation-list { 
-    column-gap: 40px;
+    gap: 40px;
     display: flex;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .contacts-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
