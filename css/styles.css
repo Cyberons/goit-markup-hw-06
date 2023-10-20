@@ -172,7 +172,6 @@ body {
     letter-spacing: 0.04em;
     background-color: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
-    width: 100%;
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
@@ -316,10 +315,10 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 }
 
 .project-name {
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -329,7 +328,6 @@ body {
 }
 
 .project-type {
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
