@@ -45,6 +45,7 @@ body {
 }
 .page-hat {
     background-color: var(--WHITE, #FFF);
+    border-bottom: 1px solid #e7e9fc
 }
 
 .container-hat {
