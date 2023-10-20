@@ -80,9 +80,6 @@ body {
 .page-navigation-list { 
     gap: 40px;
     display: flex;
-}
-
-.page-navigatio-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
