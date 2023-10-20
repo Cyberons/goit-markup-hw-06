@@ -219,11 +219,13 @@ body {
 
 .team {
     background: var(--CLOUD, #F4F4FD);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     flex-wrap: wrap;
 }
 
@@ -243,7 +245,18 @@ body {
     color: var(--NAVY-BLUE, #2E2F42);
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+
+}
+
+.member-photo {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .member-name {
@@ -253,6 +266,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-bottom: 8px;
 }
 
 .member-position {
@@ -262,6 +276,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
+    
 }
 
 .portfolio {
