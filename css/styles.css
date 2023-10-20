@@ -17,6 +17,20 @@ button {
     cursor: pointer;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -159,7 +173,7 @@ body {
     background-color: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     width: 100%;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     border-radius: 4px;
     border: none;
@@ -175,10 +189,6 @@ body {
     background-color: #FFF;
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.benefits-title {
-    visibility: hidden;
 }
 
 .benefits-list {
