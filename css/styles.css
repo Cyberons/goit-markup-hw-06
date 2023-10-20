@@ -33,6 +33,11 @@ button {
     text-decoration: none;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -121,6 +126,7 @@ body {
 
 .hero {
     background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-bottom: 60px;
 }
 
 .hero-title {
@@ -130,6 +136,10 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--WHITE, #FFF);
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -140,6 +150,7 @@ body {
     letter-spacing: 0.04em;
     background-color: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
+    
 }
 
 .hero-button:hover,
@@ -172,11 +183,19 @@ body {
     background: var(--CLOUD, #F4F4FD);
 }
 
+.team-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
 .team-member {
-    background-color: var(--WHITE, #FFF)
+    background-color: var(--WHITE, #FFF);
+    width: 264px;
 }
 
 .team-title {
+    width: 162px;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -184,6 +203,9 @@ body {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 72px;
 }
 
 .member-name {
@@ -238,6 +260,7 @@ body {
 
 .shoes {
     background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 60px;
 }
 
 .shoes-descr {
