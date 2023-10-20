@@ -82,16 +82,13 @@ body {
     display: flex;
 }
 
-.page-navigation-item {
-    padding: 24px 0;
-}
-
 .page-navigation-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    padding: 24px 0;
 }
 
 .page-navigation-link:hover,
