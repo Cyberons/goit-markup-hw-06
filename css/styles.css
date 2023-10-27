@@ -267,6 +267,23 @@ body {
     flex-wrap: wrap;
 }
 
+.social-media {
+    display: flex;
+    column-gap: 24px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+}
+
+.social-media-item {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    fill: none;
+    stroke: #F4F4FD;
+}
+
 .team-member {
     background-color: var(--WHITE, #FFF);
     width: 264px;
