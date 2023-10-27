@@ -451,6 +451,15 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+   
+.foot {
+    display: flex;
+    align-items: baseline;
+}
+
+.foot-logo {
+    margin-right: 120px;
+}
 
 .logo-shoes {
     font-family: Raleway, sans-serif;
@@ -472,4 +481,41 @@ body {
     color: var(--CLOUD, #F4F4FD);
     width: 100%;
     max-width: 264px;
+}
+
+.foot-social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.foot-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.foot-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.foot-social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-social-link:hover, .foot-social-link:focus {
+    background-color: #31d0aa;
+}
+
+.social-icon-item {
+    fill: #f4f4fd;
 }
