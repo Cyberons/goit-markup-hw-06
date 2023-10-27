@@ -399,6 +399,9 @@ body {
     position: relative;
     overflow: hidden;
 }
+.overlay:hover {
+    transform: translateY(0%);
+}
 
 .overlay-text {
     position: absolute;
