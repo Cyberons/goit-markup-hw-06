@@ -57,6 +57,7 @@ body {
     color: #434455;
     background-color: #FFF;
 }
+
 .page-hat {
     background-color: var(--WHITE, #FFF);
     border-bottom: 1px solid #e7e9fc;
@@ -167,6 +168,15 @@ body {
     background-color: var(--NAVY-BLUE, #2E2F42);
     padding-bottom: 188px;
     padding-top: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.70), 
+        rgba(46, 47, 66, 0.70)
+    )  
+    url("../images/hero/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px
 }
 
 .hero-title {
