@@ -173,7 +173,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px;
 }
 
 .hero-title {
@@ -271,8 +270,7 @@ body {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin: 8px;
 }
 
 .social-media-item {
