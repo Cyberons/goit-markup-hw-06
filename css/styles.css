@@ -648,7 +648,7 @@ body {
     padding: 8px 16px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
@@ -662,4 +662,60 @@ body {
     outline-color: transparent;
     outline-offset: 6px;
 }
+
+.contact-form-checkbox-wrapper {
+    margin-bottom: 24px;
+}
+
+.contact-form-checkbox-label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--LIGHT-SLATE, #8E8F99);
+}
+
+.privacy-policy-link {
+    color: var(--IRIS, #4D5AE5);
+    text-decoration-line: underline
+}
+
+.contact-form-own-checkbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    fill: transparent;
+    margin-right: 8px;
+}
+
+.contact-form-checkbox:checked + .contact-form-checkbox-label .contact-form-own-checkbox {
+    background-color: #404BBF;
+    fill: #FFFFFF;
+}
+
+.contact-form-checkbox:focus +.contact-form-checkbox-label .contact-form-own-checkbox {
+    outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.contact-form-btn {
+    display: block;
+    margin-left: 95px;
+    margin-right: 96px;
+    margin-bottom: 24px;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
 /* ============== /Backdrop styles =============== */
