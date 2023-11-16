@@ -67,9 +67,8 @@
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
-
       <!-- Section Our benefits -->
-      <!-- <section class="benefits section">
+      <section class="benefits section">
         <div class="container">
           <h2 class="benefits-title visually-hidden">Our benefits</h2>
           <ul class="benefits-list list">
@@ -123,15 +122,16 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- Section Our team -->
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-member">
               <img
                 class="member-photo"
+                srcset="./images/our-team/mark-gue2x.jpg 2x"
                 src="./images/our-team/mark-gue.jpg"
                 alt="Mark photo"
                 width="264"
@@ -191,6 +191,7 @@
             <li class="team-member">
               <img
                 class="member-photo"
+                srcset="./images/our-team/tom-ford2x.jpg 2x"
                 src="./images/our-team/tom-ford.jpg"
                 alt="Tom photo"
                 width="264"
@@ -250,6 +251,7 @@
             <li class="team-member">
               <img
                 class="member-photo"
+                srcset="./images/our-team/camila-ga2x.jpg 2x"
                 src="./images/our-team/camila-ga.jpg"
                 alt="Camila photo"
                 width="264"
@@ -309,6 +311,7 @@
             <li class="team-member">
               <img
                 class="member-photo"
+                srcset="./images/our-team/daniel-wil2x.jpg 2x"
                 src="./images/our-team/daniel-wil.jpg"
                 alt="Daniel photo"
                 width="264"
@@ -367,9 +370,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- Section OUR PORTFOLIO -->
-      <!-- <section class="portfolio section">
+      <section class="portfolio section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list list">
@@ -377,7 +380,16 @@
               <div class="overlay">
                 <img
                   class="project-photo"
-                  src="./images/our-portfolio/banking-app.jpg"
+                  srcset="
+                    ./images/our-portfolio/banking-app-desktop.jpg 360pw,
+                    ./images/our-portfolio/banking-app-tablet.jpg 356pw,
+                    ./images/our-portfolio/banking-app-mobile.jpg 288pw,
+                    ./images/our-portfolio/banking-app-desktop2x.jpg 720w,
+                    ./images/our-portfolio/banking-app-tablet2x.jpg 712w,
+                    ./images/our-portfolio/banking-app-mobile2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/our-portfolio/banking-app-mobile.jpg"
                   alt="banking-app photo"
                   width="360"
                   height="300"
@@ -397,7 +409,16 @@
               <div class="overlay">
                 <img
                   class="project-photo"
-                  src="./images/our-portfolio/nfc-payment.jpg"
+                  srcset="
+                    ./images/our-portfolio/nfc-payment-mobile.jpg 360pw,
+                    ./images/our-portfolio/nfc-payment-tablet.jpg 356pw,
+                    ./images/our-portfolio/nfc-payment-desktop.jpg 288pw,
+                    ./images/our-portfolio/nfc-payment-mobile2x.jpg 720w,
+                    ./images/our-portfolio/nfc-payment-tablet2x.jpg 712w,
+                    ./images/our-portfolio/nfc-payment-desktop2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/our-portfolio/nfc-payment-mobile.jpg"
                   alt="nfc-payment photo"
                   width="360"
                   height="300"
@@ -417,7 +438,16 @@
               <div class="overlay">
                 <img
                   class="project-photo"
-                  src="./images/our-portfolio/meditation-app.jpg"
+                  srcset="
+                    ./images/our-portfolio/meditation-app-mobile.jpg 360pw,
+                    ./images/our-portfolio/meditation-app-tablet.jpg 356pw,
+                    ./images/our-portfolio/meditation-app-desktop.jpg 288pw,
+                    ./images/our-portfolio/meditation-app-mobile2x.jpg 720w,
+                    ./images/our-portfolio/meditation-app-tablet2x.jpg 712w,
+                    ./images/our-portfolio/meditation-app-desktop2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/our-portfolio/meditation-app-mobile.jpg"
                   alt="meditation-app photo"
                   width="360"
                   height="300"
@@ -437,6 +467,8 @@
               <div class="overlay">
                 <img
                   class="project-photo"
+                  srcset="./images/our-portfolio/banking-app-desktop.jpg"
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/taxi-service.jpg"
                   alt="taxi-service photo"
                   width="360"
@@ -457,6 +489,8 @@
               <div class="overlay">
                 <img
                   class="project-photo"
+                  srcset="./images/our-portfolio/banking-app-desktop.jpg"
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/screen-wallpapers.jpg"
                   alt="screen-wallpapers photo"
                   width="360"
@@ -477,6 +511,8 @@
               <div class="overlay">
                 <img
                   class="project-photo"
+                  srcset="./images/our-portfolio/banking-app-desktop.jpg"
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/online-courses.jpg"
                   alt="online-courses photo"
                   width="360"
@@ -495,7 +531,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- Footer container -->
     <!-- <footer class="shoes">
